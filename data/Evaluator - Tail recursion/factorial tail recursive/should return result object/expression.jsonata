@@ -1,0 +1,1 @@
+(  $factorial := function($n){(    $iter := function($n, $acc) {      $n = 0 ? $acc : $iter($n - 1, $n * $acc)    };    $iter($n, 1)  )};  $factorial(150)) 

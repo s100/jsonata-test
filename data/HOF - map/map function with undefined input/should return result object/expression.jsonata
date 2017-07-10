@@ -1,0 +1,1 @@
+$map(Phone, function($v, $i) {$v.type="office" ? $i: null})

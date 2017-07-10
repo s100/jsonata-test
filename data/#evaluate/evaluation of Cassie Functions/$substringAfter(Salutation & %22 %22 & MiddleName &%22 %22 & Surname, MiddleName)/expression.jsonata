@@ -1,0 +1,1 @@
+$substringAfter(Salutation & " " & MiddleName &" " & Surname, MiddleName)

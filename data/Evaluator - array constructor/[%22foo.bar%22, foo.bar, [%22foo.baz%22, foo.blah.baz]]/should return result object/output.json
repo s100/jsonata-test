@@ -1,0 +1,13 @@
+[
+    "foo.bar",
+    42,
+    [
+        "foo.baz",
+        {
+            "fud": "hello"
+        },
+        {
+            "fud": "world"
+        }
+    ]
+]

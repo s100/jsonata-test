@@ -1,0 +1,27 @@
+{
+  "name": "jsonata-test",
+  "version": "1.0.0",
+  "description": "Language-agnostic test files for the JSONata querying/transformation language",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -- index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s100/jsonata-test.git"
+  },
+  "keywords": [
+    "json",
+    "jsonata"
+  ],
+  "author": "s100",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s100/jsonata-test/issues"
+  },
+  "homepage": "https://github.com/s100/jsonata-test#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "jsonata": "^1.2.6",
+    "mocha": "^3.4.2"
+  }
+}

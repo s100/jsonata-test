@@ -1,0 +1,1 @@
+$replace("ababbxabbcc",/b+/, "yy", 2)

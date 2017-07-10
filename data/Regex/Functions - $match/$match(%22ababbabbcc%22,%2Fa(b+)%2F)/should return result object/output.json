@@ -1,0 +1,23 @@
+[
+    {
+        "match": "ab",
+        "index": 0,
+        "groups": [
+            "b"
+        ]
+    },
+    {
+        "match": "abb",
+        "index": 2,
+        "groups": [
+            "bb"
+        ]
+    },
+    {
+        "match": "abb",
+        "index": 5,
+        "groups": [
+            "bb"
+        ]
+    }
+]

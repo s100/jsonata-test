@@ -1,0 +1,1 @@
+nothing~>$filter(λ($v, $i, $a) {$v.price = $max($a.price)})

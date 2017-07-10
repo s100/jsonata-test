@@ -1,0 +1,13 @@
+[
+    {
+        "type": "home",
+        "number": "0203 544 1234"
+    },
+    {
+        "type": "home",
+        "address": [
+            "freddy@my-social.com",
+            "frederic.smith@very-serious.com"
+        ]
+    }
+]

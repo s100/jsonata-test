@@ -1,0 +1,1 @@
+$string($spread(function($x){$x*$x}))

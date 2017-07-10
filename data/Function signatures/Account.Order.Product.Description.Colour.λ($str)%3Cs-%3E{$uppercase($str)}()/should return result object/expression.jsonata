@@ -1,0 +1,1 @@
+Account.Order.Product.Description.Colour.λ($str)<s->{$uppercase($str)}()

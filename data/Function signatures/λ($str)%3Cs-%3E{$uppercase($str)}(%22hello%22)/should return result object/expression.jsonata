@@ -1,0 +1,1 @@
+λ($str)<s->{$uppercase($str)}("hello")

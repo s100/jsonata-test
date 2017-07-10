@@ -1,0 +1,1 @@
+$replace("Hello World", "World", "Everyone")

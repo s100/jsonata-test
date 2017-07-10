@@ -1,0 +1,1 @@
+λ($arr, $sep)<a<s>s?:s>{$join($arr, $sep)}(["a"], "-")

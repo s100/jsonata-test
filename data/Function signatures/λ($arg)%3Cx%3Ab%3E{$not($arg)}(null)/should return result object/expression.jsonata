@@ -1,0 +1,1 @@
+λ($arg)<x:b>{$not($arg)}(null)

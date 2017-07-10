@@ -1,0 +1,1 @@
+($square := function($x){$x*$x};$chain := λ($f, $g){λ($x){$g($f($x))}};$instructions := [$sum, $square];$sumsq := $instructions ~> $reduce($chain);[1..5] ~> $sumsq()) 

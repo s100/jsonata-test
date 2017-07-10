@@ -1,0 +1,1 @@
+Account.Order.$min(Product.(Price * Quantity))

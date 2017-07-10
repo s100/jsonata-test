@@ -1,0 +1,1 @@
+$uppercase(Salutation & " " & Surname & " - has " & Employment.Years & " years of employment")

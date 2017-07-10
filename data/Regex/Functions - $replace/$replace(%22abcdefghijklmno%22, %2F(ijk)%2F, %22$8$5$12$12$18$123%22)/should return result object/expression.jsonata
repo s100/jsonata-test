@@ -1,0 +1,1 @@
+$replace("abcdefghijklmno", /(ijk)/, "$8$5$12$12$18$123")

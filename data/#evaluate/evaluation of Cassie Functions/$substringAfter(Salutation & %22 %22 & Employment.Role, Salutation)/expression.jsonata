@@ -1,0 +1,1 @@
+$substringAfter(Salutation & " " & Employment.Role, Salutation)

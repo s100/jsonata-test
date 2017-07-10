@@ -1,0 +1,1 @@
+(  $firstn := $substring(?, 0, ?);  $first5 := $firstn(?, 5);  $first5("Hello World"))

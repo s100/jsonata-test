@@ -1,0 +1,17 @@
+[
+    {
+        "match": "ab",
+        "index": 0,
+        "groups": []
+    },
+    {
+        "match": "ab",
+        "index": 2,
+        "groups": []
+    },
+    {
+        "match": "ab",
+        "index": 5,
+        "groups": []
+    }
+]

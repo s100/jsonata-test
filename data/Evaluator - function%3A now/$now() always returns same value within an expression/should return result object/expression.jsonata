@@ -1,0 +1,1 @@
+{"now": $now(), "delay": $sum([1..10000]), "later": $now()}.(now = later)

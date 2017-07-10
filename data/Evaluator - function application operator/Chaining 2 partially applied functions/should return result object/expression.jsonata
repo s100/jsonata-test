@@ -1,0 +1,1 @@
+($betweenBackets := $substringAfter(?, "(") ~> $substringBefore(?, ")");$betweenBackets("test(foo)bar")) 

@@ -1,0 +1,10 @@
+[*]
+insert_final_newline = true
+
+[{*.js,*.json,*.ts}]
+charset = utf-8
+indent_style = space
+indent_size = 4
+
+[{*.json,*.jsonata}]
+insert_final_newline = false

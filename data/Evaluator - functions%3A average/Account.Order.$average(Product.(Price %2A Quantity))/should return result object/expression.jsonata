@@ -1,0 +1,1 @@
+Account.Order.$average(Product.(Price * Quantity))

@@ -1,0 +1,1 @@
+FirstName.λ($str, $prefix)<s-s>{$prefix & $str}("Hello ")

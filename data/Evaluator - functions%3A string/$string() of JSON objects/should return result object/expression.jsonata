@@ -1,0 +1,1 @@
+$string({  "string": "hello",  "number": 78.8 / 2,  "null":null,  "boolean": false,  "function": $sum,  "lambda": function(){true},  "object": {    "str": "another",    "lambda2": function($n){$n}  },  "array": []})
