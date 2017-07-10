@@ -18,9 +18,11 @@ Language-agnostic test files for the JSONata querying/transformation language.
 
 ## Failing tests
 
-Around 70 test cases expect `null` but the actual result from `jsonata` is `undefined`. It's not yet certain how we'll deal with this. Additionally, tests involving functions (language-specific) are failing, and a few others here and there.
+Around 70 test cases expect `null` but the actual result from `jsonata` is `undefined`. It's not yet certain how JSONata should deal with this. Additionally, tests involving functions (language-specific) are failing, and a few others here and there.
 
 ## Future work
 
 * Patch up all existing tests, or remove test cases for behaviour which can't be tested language-agnostically
 * Extensive test renaming and rearrangement for clarity, particularly to dodge all of that percent-encoding
+* Create as a proper NPM module and have `jsonata` replace most of its own test code/data with this; move the JavaScript-specific stuff out again
+* Port JSONata to another language, using this as the test bed
