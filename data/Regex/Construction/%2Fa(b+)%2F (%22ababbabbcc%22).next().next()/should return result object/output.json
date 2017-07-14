@@ -1,8 +1,0 @@
-{
-    "match": "abb",
-    "start": 5,
-    "end": 8,
-    "groups": [
-        "bb"
-    ]
-}

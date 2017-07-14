@@ -1,1 +1,0 @@
-$join(Account.blah.Product.Description.Colour, ", ")
