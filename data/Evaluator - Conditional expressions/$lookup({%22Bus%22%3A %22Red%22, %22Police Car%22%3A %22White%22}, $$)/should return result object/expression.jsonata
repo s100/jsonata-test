@@ -1,1 +1,0 @@
-$lookup({"Bus": "Red", "Police Car": "White"}, $$)
