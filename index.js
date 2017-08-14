@@ -14,6 +14,14 @@ var path = require("path");
 
 var expect = chai.expect;
 
+var parseF = function(filename) {
+    const content = fs.readFileSync(filename, 'utf8');
+    if (content === 'undefined') {
+        return undefined;
+    }
+    return JSON.parse(content);
+}
+
 var consumeDirectory = function(p) {
 
     var trueName = path.basename(p)
@@ -48,10 +56,10 @@ var consumeDirectory = function(p) {
             }
 
             var expression = jsonata(str);
-            var input = JSON.parse(fs.readFileSync(p + '/input.json'));
+            var input = parseF(p + '/input.json');
 
             if(fs.existsSync(p + '/bindings.json')) {
-                var bindings = JSON.parse(fs.readFileSync(p + '/bindings.json'));
+                var bindings = parseF(p + '/bindings.json');
                 Object.keys(bindings).forEach(key => {
                     expression.assign(key, bindings[key]);
                 });
@@ -63,7 +71,7 @@ var consumeDirectory = function(p) {
             }
 
             var actual = expression.evaluate(input);
-            var expected = JSON.parse(fs.readFileSync(p + '/output.json'));
+            var expected = parseF(p + '/output.json');
             expect(actual).to.deep.equal(expected);
         });
     } else if(directoryIsDescribe) {
